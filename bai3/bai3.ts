@@ -8,6 +8,7 @@ abstract class Animal {
     eat(): void {
         console.log(`${this.name}`);
     }
+    abstract makeSound(): void;
 }
 
 class Dog extends Animal {
